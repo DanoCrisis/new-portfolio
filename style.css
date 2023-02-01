@@ -2,12 +2,22 @@
     font-family: 'Trebuchet MS';
 }
 
-body {
+.background {
+    background-image: url("images/background-code.jpg");
     background-color: black;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
 
+/* body {
+    background-color: black;
+} */
+
 #navbar {
-    background-color:yellow;
+    background-color:rgb(246, 246, 59);
     border-color: black;
     height: 40px;
     border-width: 5px;
@@ -37,8 +47,29 @@ a:hover {
 }
 
 h1 {
-    color: goldenrod;
+    color: blue;
     font-size: 50px;
+}
+
+.h2container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#status {
+    color: green;
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color:palegoldenrod;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .moving {
@@ -54,8 +85,9 @@ h1 {
 }
 
 #code-image {
-    max-width: 70%;
+    max-width: 60%;
     max-height: 70%;
+    margin-left: 50px;
 }
 
 #code-image-text {
@@ -64,8 +96,8 @@ h1 {
 }
 
 #me-image {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 35%;
+    max-height: 35%;
 }
 
 #me-image-text {
@@ -136,8 +168,6 @@ p {
 }
 
 
-
-
 .buttons {
     color: green;
     font-weight: 900;
@@ -147,6 +177,10 @@ p {
     border-width: 2px;
     border-color: burlywood;
     border-style: ridge;
+}
+
+.buttons:hover {
+    background-color: cyan;
 }
 
 .next-previous{
