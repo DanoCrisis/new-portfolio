@@ -124,6 +124,21 @@ h2 {
     align-items: center;
 }
 
+#shadow-char-image {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#shadow-battle-image {
+    max-width: 29%;
+    max-height: 29%;
+}
+
+#shadow-image-text {
+    display: flex;
+    align-items: center;
+}
+
 h3 {
     color: goldenrod;
     font-size: 30px;
