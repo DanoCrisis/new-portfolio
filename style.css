@@ -26,7 +26,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 a {
@@ -38,6 +37,10 @@ a {
 a:hover {
     font-weight: bold;
     color: darkblue; 
+}
+
+img {
+    color: antiquewhite;
 }
 
 .h1container {
@@ -104,6 +107,34 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+}
+
+#mine-bad-image {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#mine-good-image {
+    max-width: 19%;
+    max-height: 19%;
+}
+
+#mine-image-text {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    color: goldenrod;
+    font-size: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.spaced-paras {
+    display: flex;
+    flex-direction: column;
 }
 
 #contact-list {
