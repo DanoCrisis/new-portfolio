@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Unbounded&display=swap');
+
 * {                                          
     font-family: 'Trebuchet MS';
 }
@@ -62,6 +64,9 @@ h1 {
 
 #status {
     color: green;
+    animation-name: glowing;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
 }
 
 h2 {
@@ -80,6 +85,12 @@ h2 {
     animation-name: addingsemicolon;
     animation-duration: 6s;
     animation-iteration-count: 1;
+}
+
+@keyframes glowing {
+    0% {opacity: 100%;}
+    50% {opacity: 30%;}
+    100% {opacity: 100%;}
 }
 
 @keyframes addingsemicolon {
@@ -205,6 +216,7 @@ h4{
 }
 
 h3 {
+    font-family: 'Unbounded', cursive;
     color: goldenrod;
     font-size: 30px;
     margin: 0px;
@@ -246,9 +258,10 @@ h3 {
 }
 
 p {
+    font-family: 'Itim', cursive;
     background-color: black;
     color: rebeccapurple;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
