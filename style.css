@@ -139,6 +139,21 @@ h2 {
     align-items: center;
 }
 
+#beat-main-image {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#beat-menu-image {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#beat-image-text {
+    display: flex;
+    align-items: center;
+}
+
 h3 {
     color: goldenrod;
     font-size: 30px;
