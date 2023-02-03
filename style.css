@@ -89,13 +89,74 @@ h2 {
 
 #code-image {
     max-width: 60%;
-    max-height: 70%;
+    max-height: 60%;
     margin-left: 50px;
+    margin-right: 50px;
 }
 
-#code-image-text {
+.image-text {
     display: flex;
     align-items: center;
+}
+ 
+#languagealign {
+    display: flex;
+    flex-direction: row;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#python-image {
+    max-width: 40%;
+    max-height: 40%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#javascript-image {
+    max-width: 40%;
+    max-height: 40%;
+}
+
+#Cplusplus-image {
+    max-width: 37%;
+    max-height: 37%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#html-image {
+    max-width: 40%;
+    max-height: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#css-image {
+    max-width: 40%;
+    max-height: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#unreal-image {
+    max-width: 40%;
+    max-height: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h4{
+    color: lightblue;
+    font-size: 25px;
+}
+
+#h4altered {
+    margin: 0px;
 }
 
 #me-image {
@@ -119,11 +180,6 @@ h2 {
     max-height: 19%;
 }
 
-#mine-image-text {
-    display: flex;
-    align-items: center;
-}
-
 #shadow-char-image {
     max-width: 30%;
     max-height: 30%;
@@ -134,11 +190,6 @@ h2 {
     max-height: 29%;
 }
 
-#shadow-image-text {
-    display: flex;
-    align-items: center;
-}
-
 #beat-main-image {
     max-width: 30%;
     max-height: 30%;
@@ -147,11 +198,6 @@ h2 {
 #beat-menu-image {
     max-width: 30%;
     max-height: 30%;
-}
-
-#beat-image-text {
-    display: flex;
-    align-items: center;
 }
 
 h3 {
@@ -177,7 +223,7 @@ h3 {
     max-height: 30%;
 }
 
-#google-text {
+.contacts-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,22 +235,10 @@ h3 {
     max-height: 25%;
 }
 
-#linkedin-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #github-image {
     background-color: white;
     max-width: 25%;
     max-height: 25%;
-}
-
-#github-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 p {
@@ -214,6 +248,10 @@ p {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+#cont-para {
+    font-size: 25px; 
 }
 
 .links{
@@ -227,7 +265,6 @@ p {
     font-weight: bold;
     color: yellow; 
 }
-
 
 .buttons {
     color: green;
